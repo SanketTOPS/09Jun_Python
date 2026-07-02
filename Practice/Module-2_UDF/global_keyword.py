@@ -1,0 +1,9 @@
+x=20
+print("X:",x)
+
+def getVal():
+    global x
+    x+=10
+    print("X:",x)
+
+getVal()
